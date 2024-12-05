@@ -19,12 +19,12 @@ const Navbar = () => {
         <li className="p-4 cursor-pointer hover:bg-green-500">Industries</li>
         <li className="p-4 cursor-pointer hover:bg-green-500">Company</li>
         <li className="p-4 cursor-pointer hover:bg-green-500">Resources</li>
-        <li className="p-4 cursor-pointer hover:bg-green-500">Contact</li>
-        <li className="p-4 ml-4 btn font-semibold text-[#000300] rounded bg-zinc-50 hover:bg-green-500 cursor-pointer">Logistics Solutions</li>
+        <li className="p-4 mr-3 cursor-pointer hover:bg-green-500">Contact</li>
+        <li className="p-4 mr-4 btn font-semibold text-[#000300] rounded bg-zinc-50 hover:bg-green-500 cursor-pointer">Logistics Solutions</li>
       </ul>
 
       {/* Mobile Menu Toggle Button */}
-      <div onClick={handleNav} className="block md:hidden">
+      <div onClick={handleNav} className="block md:hidden mr-4">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
